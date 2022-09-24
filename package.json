@@ -27,8 +27,8 @@
     "supertest": "^4.0.2"
   },
   "scripts": {
-    "start": "nodemon server.js",
-    "build": "babel server.js -d dist",
-    "dev": "node ./node_modules/node-dev/bin/node-dev server.js"
+    "start": "nodemon index.js",
+    "build": "babel index.js -d dist",
+    "dev": "node ./node_modules/node-dev/bin/node-dev index.js"
   }
 }
